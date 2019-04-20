@@ -49,6 +49,9 @@ body{
 .p{
 	background-color: #CD5C5C;
 }
+a{
+	background-color: #CD5C5C;
+}
 .pics{
 	grid-column:3/4;
 	display: grid;
@@ -87,16 +90,6 @@ p{
 }
 li{
 	font-size: 30px;
-}
-.vid {
-	color: #4ED1FF;
-	text-shadow: 5px;
-	margin-left: 10px;
-	background-color:#CD5C5C;
-	border: 2px white solid;
-	padding: 20px;
-	text-align: center;
-	font-size: 20px;
 }
 .unique{
 	padding: 5px;
