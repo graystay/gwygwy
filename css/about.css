@@ -88,11 +88,14 @@ p{
 li{
 	font-size: 30px;
 }
-vid a{
+vid {
 	grid-column: 1/3;
 	color: #4ED1FF;
 	text-shadow: 5px;
 	margin-left: 10px;
+}
+vid a{
+	padding: 20px;
 }
 .unique{
 	padding: 5px;
