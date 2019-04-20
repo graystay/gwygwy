@@ -1,0 +1,96 @@
+body{
+	background-color:gray;
+}
+.menu {
+	background-color:#0a0270;
+	overflow: hidden;
+	margin-bottom: 15px;
+	border: 2px white solid;
+}
+
+.menu a {
+	float: right;
+	color: green;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+.menu a:hover {
+	background-color: lightgreen;
+	color: black;
+}
+
+
+.menu a.active {
+	background-color: mintgreen;
+	color: white;
+}
+.logo{
+	margin: 5px 10px;
+	height: 10vh;
+}
+.back a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	background-color: #A9A9A9;
+}
+.back a:hover{
+	color: #A9A9A9;
+	background-color: black;
+}
+.crafts{
+	padding: 5px;
+	border: 2px white solid;
+	background-color: #DCDCDC;
+	margin: 15px 0;
+}
+.pro{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	height: 30vh;
+	grid-gap: 10px;
+	margin-bottom: 15px;
+}
+.txt{
+	grid-column: 2/5;
+	background-color: pink;
+	border: 2px white solid;
+}
+.img1{
+	grid-column: 1/2;
+	background-image: url(../images/cr1.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+}
+.img3{
+	grid-column: 1/2;
+	background-image: url(../images/cr3.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+}
+.img4{
+	grid-column: 1/2;
+	background-image: url(../images/cr4.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+}
+.img5{
+	grid-column: 1/2;
+	background-image: url(../images/cr5.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+}
+p{
+	margin-left: 60px;
+}
+h3{
+	margin-left:20px;
+}

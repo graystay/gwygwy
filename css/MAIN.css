@@ -1,0 +1,91 @@
+body{
+	background-color:gray;
+}
+.header-showcase {
+	border: 2px white solid;
+	margin-bottom: 15px;
+}
+.menu {
+	background-color:#0a0270;
+	overflow: hidden;
+}
+
+.menu a {
+	float: right;
+	color: green;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.menu a:hover {
+	background-color: lightgreen;
+	color: black;
+}
+
+
+.menu a.active {
+	background-color: mintgreen;
+	color: white;
+}
+.logo{
+	margin: 5px 10px;
+	height: 10vh;
+}
+.picture{
+	background-image: url(../images/3.gif);
+	height: 45vh;
+}
+.article{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 80vh;
+	grid-gap: 10px;
+	margin-bottom: 15px;
+}
+.gif{
+	grid-column: 1/2;
+	background-image: url(../images/5.gif);
+	border: 2px white solid;
+	background-position:top;
+	border:2px white solid;
+}
+.description{
+	grid-column: 2/4;
+	background-color:#4169E1;
+	border: 2px white solid;
+	text-align: center;
+
+}
+.description a:hover{
+	background-color: #87CEFA;
+}
+.button{
+	text-decoration: none;
+	color: black ;
+	background-color: #1E90FF;
+	padding: 15px;
+	border: 1px white solid;
+}
+.comments{
+	height: 70vh;
+	background-color: #87CEFA;
+	border: 2px white solid;
+	margin-bottom: 15px;
+	padding-left: 5px;
+}
+.checked{
+	color: orange;
+}
+.ratings{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	color: #006400;
+}
+.h2{
+	color:#2F4F4F;
+}
+.footer{
+	text-align: center;
+}

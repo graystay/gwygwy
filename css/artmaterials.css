@@ -1,0 +1,131 @@
+body{
+	background-color:gray;
+}
+.menu {
+	background-color:#0a0270;
+	overflow: hidden;
+	margin-bottom: 15px;
+	border: 2px white solid;
+}
+
+.menu a {
+	float: right;
+	color: green;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+.menu a:hover {
+	background-color: lightgreen;
+	color: black;
+}
+
+
+.menu a.active {
+	background-color: mintgreen;
+	color: white;
+}
+.logo{
+	margin: 5px 10px;
+	height: 10vh;
+}
+.back a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	background-color: #A9A9A9;
+}
+.back a:hover{
+	color: #A9A9A9;
+	background-color: black;
+}
+.artmaterials{
+	padding: 5px;
+	border: 2px white solid;
+	background-color: #DCDCDC;
+	margin: 15px 0;
+}
+.pro{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	height: 30vh;
+	grid-gap: 10px;
+	margin-bottom: 15px;
+}
+.txt{
+	grid-column: 2/5;
+	background-color: pink;
+	border: 2px white solid;
+}
+.img1{
+	grid-column: 1/2;
+	background-image: url(../images/n1.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+	height: 180px;
+	width: 300px;
+}
+.img3{
+	grid-column: 1/2;
+	background-image: url(../images/n3.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+	height: 180px;
+	width: 300px;
+}
+.img4{
+	grid-column: 1/2;
+	background-image: url(../images/n4.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+	height: 180px;
+	width: 300px;
+}
+.img9{
+	grid-column: 1/2;
+	background-image: url(../images/n9.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+	height: 180px;
+	width: 300px;
+}
+.img13{
+	grid-column: 1/2;
+	background-image: url(../images/n13.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+	height: 180px;
+	width: 300px;
+}
+.img15{
+	grid-column: 1/2;
+	background-image: url(../images/n15.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+	height: 180px;
+	width: 300px;
+}
+.img17{
+	grid-column: 1/2;
+	background-image: url(../images/n17.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px white solid;
+	height: 180px;
+	width: 300px;
+}
+p{
+	margin-left: 60px;
+}
+h3{
+	margin-left:20px;
+}
