@@ -51,6 +51,7 @@ body{
 }
 .a{
 	background-color: #CD5C5C;
+	text-align: center;
 }
 .pics{
 	grid-column:3/4;
