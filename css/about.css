@@ -49,9 +49,6 @@ body{
 .p{
 	background-color: #CD5C5C;
 }
-.a{
-	background-color: #CD5C5C;
-}
 .pics{
 	grid-column:3/4;
 	display: grid;
@@ -90,6 +87,9 @@ p{
 }
 li{
 	font-size: 30px;
+}
+.vid{
+	text-indent: 200px;
 }
 .unique{
 	padding: 5px;
